@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <de.hdodenhof.circleimageview.CircleImageView
+        android:src="@drawable/sarthak"
+        android:id="@+id/UserPic"
+        android:layout_marginTop="20dp"
+        android:layout_marginStart="30dp"
+        android:layout_width="60dp"
+        android:layout_height="60dp"/>
+
+    <TextView
+        android:layout_toEndOf="@+id/UserPic"
+        android:layout_marginTop="30dp"
+        android:text="Sarthak"
+        android:textSize="30sp"
+        android:layout_marginStart="20dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+
+    <Button
+        android:layout_below="@+id/UserPic"
+        android:id="@+id/records"
+        android:layout_width="match_parent"
+        android:layout_marginStart="30dp"
+        android:layout_marginEnd="30dp"
+        android:layout_height="60dp"
+        android:textSize="25sp"
+        android:textAllCaps="false"
+        android:text="Records"
+        android:backgroundTint="#D5D3D3"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="30dp"
+        />
+
+    <Button
+        android:id="@+id/sos"
+        android:layout_below="@+id/records"
+        android:layout_width="match_parent"
+        android:layout_marginStart="30dp"
+        android:layout_marginEnd="30dp"
+        android:layout_height="60dp"
+        android:textSize="25sp"
+        android:textAllCaps="false"
+        android:text="SOS"
+        android:backgroundTint="#D5D3D3"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="10dp"
+        />
+
+    <Button
+        android:id="@+id/reports"
+        android:layout_below="@+id/sos"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:textSize="25sp"
+        android:textAllCaps="false"
+        android:layout_marginStart="30dp"
+        android:layout_marginEnd="30dp"
+        android:text="Reports"
+        android:backgroundTint="#D5D3D3"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="10dp"
+        />
+
+    <ImageView
+        android:id="@+id/chart"
+        android:layout_below="@+id/reports"
+        android:layout_marginTop="20dp"
+        android:layout_marginStart="30dp"
+        android:layout_marginEnd="30dp"
+        android:src="@drawable/chart1"
+        android:scaleType="fitCenter"
+        android:layout_width="match_parent"
+        android:layout_height="300dp"/>
+
+    <Button
+        android:id="@+id/Start"
+        android:textAllCaps="false"
+        android:text="Start"
+        android:backgroundTint="#2340E6"
+        android:textSize="20sp"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="20dp"
+        android:layout_marginStart="30dp"
+        android:layout_width="150dp"
+        android:layout_height="60dp"/>
+
+    <Button
+        android:id="@+id/Home"
+        android:textSize="20sp"
+        android:text="Home"
+        android:textAllCaps="false"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="20dp"
+        android:layout_alignParentEnd="true"
+        android:layout_marginEnd="30dp"
+        android:backgroundTint="#1FDA19"
+        android:layout_marginStart="30dp"
+        android:layout_width="150dp"
+        android:layout_height="60dp"/>
+
+</RelativeLayout>
